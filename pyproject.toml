@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyomo-poc"
+version = "0.1.0"
+description = ""
+authors = ["KaaVii <daniloventurini2112@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyomo_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyomo = "^6.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
